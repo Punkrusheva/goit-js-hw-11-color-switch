@@ -25,9 +25,14 @@ body {
 
 button {
   outline: 0px;
-  padding: 5px;
+  padding: 10px;
+  border-radius: 30px;
   font-size: 20px;
   border: 1px solid red;
-  border-radius: 30px;
   background-color: tomato;
+}
+
+.active {
+  background-color: gray;
+  border: 1px solid black;
 }
